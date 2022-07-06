@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Graduate");
+
+#root {
+  height: 100vh;
+  background-color: #FCF8E8;
+}
+
+#selectors {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  justify-items: center;
+}
+
+.fa-arrow-up {
+  color: #94B49F;
+}
+.fa-arrow-down {
+  color: #DF7861;
+}
+#break-decrement, #session-decrement, #break-increment, #session-increment {
+  background-color: transparent;
+  border: none;
+}
+
+#break-decrement > i, #break-increment > i, #session-decrement > i, #session-increment > i {
+    pointer-events: none;
+} 
+
+#ssr {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  justify-items: center;
+}
+
+#start_stop, #reset {
+  background-color: #DF7861;
+}
+
+#timer-label {
+  font-family: Graduate;
+  font-size: 50px;
+}
+#session-label, #break-label {
+  font-family: Graduate;
+  font-size: 40px;
+}
+#start_stop, #reset {
+  font-family: Graduate;
+  font-size: 30px;
+}
+
+#time-left {
+  font-family: Graduate;
+  font-size: 60px;
+}
+#session-length, #break-length {
+  font-family: Graduate;
+  font-size: 50px;
+}
+
+#session, #break {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
